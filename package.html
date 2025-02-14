@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aawsom Tours and Travels</title>
+    <!-- font awesome cnd link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+     <!-- custom css file link -->
+     <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+    <header>
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <ul>
+            <li class="logoimg"><img src="images/logo.jpeg" alt=""></li>
+        </ul>
+    
+        <a href="images/g-1.jpg" class="logo" style="
+        font-size: xx-large;
+        color: rgb(48, 150, 234);
+    "><span>A</span>aw<span>S</span>om</a>
+        <nav class="navbar">
+            <a href="http://localhost/Project-TT/#home">Home</a>
+            <a href="http://localhost/Project-TT/#book">Inquiry</a>
+            <a href="http://localhost/Project-TT/#packages">Packages</a>
+            <a href="http://localhost/Project-TT/#service">Services</a>
+            <a href="http://localhost/Project-TT/#gallery">Gallery</a>
+            <a href="http://localhost/Project-TT/#contact">Contact</a>
+    
+        </nav>
+        <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>    
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+       </header> 
+    <!-- header section end -->
+<!-- login form container -->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+    
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter  your email">
+        <input type="password" class="box" placeholder="enter  your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember"> remember me</label>
+        <p> forget password? <a href="#">click here</a></p> 
+        <p>Don't have and account? <a href="#">Register now</a></p>
+
+    </form>
+</div>
+<!-- book section start -->
+<section class="booking">
+    <h1 class="heading">
+        <span>B</span>
+        <span>0</span>
+        <span>0</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>Y</span>
+        <span>O</span>
+        <span>U</span>
+        <span>R</span>
+        <span class="space"></span>
+        <span>T</span>
+        <span>R</span>
+        <span>I</span>
+        <span>P</span>
+        <span>!</span>
+    </h1>
+    <form action="book_form.php" method="post" class="book-form">
+        <div class="flex">
+            <div class="inputBox">
+                <span>name :</span>
+                <input type="text" placeholder="Enter your name" name="name">
+            </div>
+            <div class="inputBox">
+                <span>email :</span>
+                <input type="email" placeholder="Enter your Email" name="email">
+            </div>
+            <div class="inputBox">
+                <span>Phone :</span>
+                <input type="number" placeholder="Enter your number" name="phone">
+            </div>
+            <div class="inputBox">
+                <span>Address :</span>
+                <input type="text" placeholder="Enter your Address" name="address">
+            </div>
+            <div class="inputBox">
+                <span>Package :</span>
+            <select name="package" id="package">
+                    <option value="">Select Package</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Shimla">Shimla</option>
+                    <option value="Kashir">Kashmir</option>
+                    <option value="Ladakh">Ladakh</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+            </select>
+            </div>
+            <div class="inputBox">
+                <span>How many :</span>
+                <input type="number" placeholder="Enter number of people" name="guests">
+            </div>
+            <div class="inputBox">
+                <span>arrivals:</span>
+                <input type="date"  name="arrivals">
+            </div>
+            <div class="inputBox">
+                <span>leaving :</span>
+                <input type="date" name="leaving">
+            </div>
+        </div><br>
+        <input type="checkbox" id="remember">
+        <label for="remember"> you have read all terms and conditions releated booking your tour  package</label><br>
+       <input type="submit" value="Submit" class="btn" name="send">
+
+    </form>
+</section>
+
+
+<!-- book section end -->
+
+
+
+
+
+
+<!-- custom js file link -->
+<script src="js/script.js">
+        
+</script>
+
+</body>
+</html>

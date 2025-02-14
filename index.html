@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aawsom Tours and Travels</title>
+    <!-- font awesome cnd link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header section stars -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <ul>
+            <li class="logoimg"><img src="images/logo.jpeg" alt=""></li>
+        </ul>
+
+        <a href="images/g-1.jpg" class="logo" style="
+    font-size: xx-large;
+    color: rgb(48, 150, 234);
+"><span>A</span>aw<span>S</span>om</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Inquiry</a>
+            <a href="#packages">Packages</a>
+            <a href="#service">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        
+        <form action="serach.php" method="post"  class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search" name="submit"></label>
+        </form>
+    </header>
+    <!-- header section end -->
+
+
+
+   <!-- login form container -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+         <form action="login.php" method="post" class="login_form">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter  your email" name="lemail">
+            <input type="password" class="box" placeholder="enter  your password" name="lpassword">
+            <input type="submit" value="login now" class="btn" name="send">
+            <input type="checkbox" id="remember">
+            <label for="remember"> remember me</label>
+            <p>Don't have and account? <a href="reg.html">Register now</a></p>
+
+        </form>
+    </div>
+
+    <!-- home section stars -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover india's new places with us,adventure awaits</p>
+            <a href="#packages" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"> </span>
+            <span class="vid-btn " data-src="images/vid-2.mp4"> </span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"> </span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"> </span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"> </span>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slide" loop autoplay muted></video>
+        </div>
+
+
+    </section>
+
+    <!-- home section end -->
+
+
+
+
+    <!-- Packages section stars -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/mumbai.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>mumbai
+                    </h3>
+                    <p> mumbai is the city of limelight</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">10,000rs<span>-15,000rs</span></div>
+                    <a href="mumbai.html" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="images/shimla.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>shimla
+                    </h3>
+                    <p> shimla-city of snow</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">15000rs<span>-20000rs</span></div>
+                    <a href="shimla.html" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="images/kashmir.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>kashmir
+                    </h3>
+                    <p> kashmir-heaven of india</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">20000rs<span>-25000rs</span></div>
+                    <a href="kashmir.html" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="images/ladak.jpg" alt="4">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>ladak
+                    </h3>
+                    <p> The mountains are calling, and you must go</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">18999rs<span>-25000rs</span></div>
+                    <a href="ladak.html" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="images/kerala.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>Kerala
+                    </h3>
+                    <p> Kerala – God's Own Country</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">20000rs<span>-26000rs</span></div>
+                    <a href="kerala.html" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="images/karnataka.jpg" alt="6">
+                <div class="content">
+                    <h3>
+                        <i class="fas fa-map-marker-alt"></i>karnataka
+                    </h3>
+                    <p> karnataka-beauty with ancitent places </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">22000rs<span>-26000rs</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Packages section end -->
+    
+    
+    <!-- book section stars -->
+    <section class=" book" id="book">
+        <h1 class="heading">
+            <span>I</span>
+            <span>N</span>
+            <span>Q</span>
+            <span>U</span>
+            <span>I</span>
+            <span>R</span>
+            <span>Y</span>
+  
+        </h1>
+        
+        <div class="row">
+            <div class="image">
+                <img src="images/img-1.jpg" alt="">
+            </div>
+            <form action="inq_form.php" method="post" class="inquiry_form">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name" name="place">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests" name="guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date" name="arrivals">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date" name="leaving">
+                </div>
+                <input type="submit" class="btn" value="send" name="send">
+
+            </form>
+            
+        </div>
+    </section>
+    <!-- book section end -->
+    <!-- Services section Start-->
+    <section class="service" id="service">
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordale Hotels</h3>
+                <p>We provide best and Affordale hotels in our plans</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>We provide healthy and testy food and drinks in our plans</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safty Guide </h3>
+                <p>We provide safty Guide along you in our plans</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the India </h3>
+                <p>We provide tours all over india</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travels</h3>
+                <p>We provide confortable and fastest traveling service in our plans</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Advantures</h3>
+                <p>We provide Advantures in our plans</p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </section>
+    <!-- Services section ends -->
+
+    <!-- Gallery section Start -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Adventure is calling</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Enjoy your moments</h3>
+                    <p>A signature of excellence</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Experince Dreamplaces</h3>
+                    <p>Celebrate the journey</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Travel unscripted</h3>
+                    <p>A destination for the new millennium</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Elevate your travel experience</h3>
+                    <p>Be one of our frequent travelers</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Explore The Unseen</h3>
+                    <p>Travel better with us</p>
+                    <a href="#packages" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Gallery section ends -->
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/conimg2.jpg" alt="">
+            </div>
+            <form action="contact.php" method="post" class="contact_form">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name" name="sname">
+                    <input type="email" placeholder="Email"name="semail">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Number"name="snumber">
+                    <input type="text" placeholder="Subject"name="subject">
+                </div>
+                <textarea placeholder="Message" id="" cols="30" rows="10" name="message"></textarea>
+                <input type="submit" class="btn" value="Send" name="send">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Contact section ends -->
+
+    <!-- footer section  -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>We prediect to be best safe and secure tours and traveling agency.we are allways ready to offer you
+                    best plans and discount. we hope you will enjoy trous along us... </p>
+            </div>
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="#">pune</a>
+                <a href="#">mumbai</a>
+                <a href="#">gujrat</a>
+                <a href="#">kerala</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#">gallery</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+        <h1 class="credit">Created by <span>Miss.Aarti Natekar & Miss.Samruddhi Jagdale </span>|all rights reserved!
+        </h1>
+    </section>
+
+    <!-- custom js file link -->
+    <script src="js/script.js">
+
+    </script>
+</body>
+<a href=""></a>
+
+</html>
